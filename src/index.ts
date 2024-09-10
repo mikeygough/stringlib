@@ -88,6 +88,9 @@ function camelCase(str: string): string {
  * Returns a string with the number of chars shifted to the end of the string
  * */
 function shift(str: string, chars: number = 1) {
+  if (str.length < 1) {
+    return '';
+  }
   let newStr = str.slice(chars).trim();
   for (let i = 0; i < chars; i++) {
     newStr += str[i];
