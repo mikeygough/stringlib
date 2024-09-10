@@ -1,6 +1,6 @@
 {
   "name": "@mikeygough/stringlib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a JS library for strings",
   "main": "src/index.js",
   "scripts": {
