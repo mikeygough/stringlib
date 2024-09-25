@@ -1,5 +1,9 @@
 # stringlib
 
+![npm bundle size](https://img.shields.io/bundlephobia/min/%40mikeygough%2Fstringlib)
+
+![NPM Version](https://img.shields.io/npm/v/%40mikeygough%2Fstringlib)
+
 stringlib is a JS library for strings.
 
 this library includes ten string helper methods:
