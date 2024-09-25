@@ -4,27 +4,27 @@ stringlib is a JS library for strings.
 
 this library includes ten string helper methods:
 
-- capitalize
+- capitalize()
 
-- allCaps
+- allCaps()
 
-- capitalizeWords
+- capitalizeWords()
 
-- removeExtraSpaces
+- removeExtraSpaces()
 
-- kebobCase
+- kebobCase()
 
-- snakeCase
+- snakeCase()
 
-- camelCase
+- camelCase()
 
-- shift
+- shift()
 
-- makeHashTag
+- makeHashTag()
 
-- isEmpty
+- isEmpty()
 
-#### notes
+### testing notes
 
 this repository includes unit tests. the tests are helpful for understanding how each function should perform. if you add a new function, please add a corresponding test.
 
@@ -35,3 +35,5 @@ run all tests with:
 generate a test coverage report with:
 
 `npm jest --coverage`
+
+### additional notes
