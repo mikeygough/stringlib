@@ -1,3 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.capitalize = capitalize;
+exports.allCaps = allCaps;
+exports.capitalizeWords = capitalizeWords;
+exports.removeExtraSpaces = removeExtraSpaces;
+exports.kebobCase = kebobCase;
+exports.snakeCase = snakeCase;
+exports.camelCase = camelCase;
+exports.shift = shift;
+exports.makeHashTag = makeHashTag;
+exports.isEmpty = isEmpty;
 /**
  * Returns a string with the first letter capitalized
  * */
@@ -125,13 +137,3 @@ function isEmpty(str) {
     }
     return true;
 }
-module.exports.capitalize = capitalize;
-module.exports.allCaps = allCaps;
-module.exports.capitalizeWords = capitalizeWords;
-module.exports.removeExtraSpaces = removeExtraSpaces;
-module.exports.kebobCase = kebobCase;
-module.exports.snakeCase = snakeCase;
-module.exports.camelCase = camelCase;
-module.exports.shift = shift;
-module.exports.makeHashTag = makeHashTag;
-module.exports.isEmpty = isEmpty;
