@@ -6,6 +6,12 @@
 
 stringlib is a JS library for strings.
 
+### Test App
+
+[stringymajigy](https://github.com/mikeygough/stringymajigy) is a small React project which showcases datelib.
+
+### Description
+
 this library includes ten string helper methods:
 
 - capitalize()
