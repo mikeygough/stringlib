@@ -9,7 +9,7 @@ const {
   shift,
   makeHashTag,
   isEmpty,
-} = require('./index');
+} = require('../src/index');
 
 describe('capitalize', () => {
   const cases = [
